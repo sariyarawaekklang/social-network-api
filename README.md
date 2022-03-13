@@ -42,8 +42,13 @@ THEN I am able to successfully create and delete reactions to thoughts and add a
 - Technical Acceptance Criteria
 - Repository Quality
 
-## Walkthrough Video
+## Walkthrough Videos
 
-# Repository URL
+- [Video for USERS](https://drive.google.com/file/d/1NOG9GX8i4bE0_-El4KX39hCoALzzxQf7/view)
+- [Video for FRIENDS](https://drive.google.com/file/d/1_TNZy7Kp7n3cNA8OIkWgG79OVJWdjEGc/view)
+- [Video for THOUGHTS](https://drive.google.com/file/d/15nkjiuKLDqYFyAsVQE9SHQ_SVud53GQR/view)
+- [Video for REACTIONS](https://drive.google.com/file/d/1j7JprDTktGJ6wxpgN3qICNjzpUKzP2fW/view)
+
+## Repository URL
 
 https://github.com/sariyarawaekklang/social-network-api.git
