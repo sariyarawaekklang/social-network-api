@@ -13,7 +13,7 @@ router
   .get(getAllUser)
   .post(createUser);
 
-// /api/users/:id
+// /api/users/<userId>
 router
   .route('/:id')
   .get(getUserById)
