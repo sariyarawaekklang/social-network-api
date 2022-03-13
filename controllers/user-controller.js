@@ -1,5 +1,4 @@
 const { User } = require('../models');
-const { db } = require('../models/User');
 
 const userController = {
     // get all users
@@ -56,7 +55,7 @@ const userController = {
     addFriend({ params, body }, res) {
         User.findOneAndUpdate(
             { _id: params.userId },
-            { $push: { friends: params.friendId } },
+            { $push: { friends: body } },
             { new: true, runValidators: true }
         )
         .then(dbUserData => {
